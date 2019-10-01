@@ -1,11 +1,13 @@
-BEGIN USING TRAINING DATATraining data file: traindata.txt
+BEGIN USING TRAINING DATA
+Training data file: traindata.txt
 Training labels file: trainlabels.txt
 Correct classifications: 311
 Incorrect classifications: 11
 On training data accuracy = 96.58385093167702%
 _________________________________________________________
 
-BEGIN USING TEST DATATraining data file: traindata.txt
+BEGIN USING TEST DATA
+Training data file: traindata.txt
 Training labels file: trainlabels.txt
 Test data file: testdata.txt
 Compared classifications with: testlabels.txt

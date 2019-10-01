@@ -94,7 +94,7 @@ if __name__ == "__main__":
             incorrectCount += 1
 
     accuracy = correctCount / (correctCount + incorrectCount) * 100
-    results.write("BEGIN USING TRAINING DATA")
+    results.write("BEGIN USING TRAINING DATA\n")
     results.write("Training data file: traindata.txt\n")
     results.write("Training labels file: trainlabels.txt\n")
     results.write("Correct classifications: " + str(correctCount) + "\nIncorrect classifications: " + str(incorrectCount))
@@ -122,7 +122,7 @@ if __name__ == "__main__":
 
     accuracy = correctCount / (correctCount + incorrectCount) * 100
     
-    results.write("BEGIN USING TEST DATA")
+    results.write("BEGIN USING TEST DATA\n")
     results.write("Training data file: traindata.txt\n")
     results.write("Training labels file: trainlabels.txt\n")
     results.write("Test data file: testdata.txt\n")
